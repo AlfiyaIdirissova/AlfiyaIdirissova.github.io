@@ -15,7 +15,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            justify-content: space-betwen;
+            justify-content: space-between;
             align-items: stretch;
             width: 100%;
             margin: 10px 10px 10px 10px;
@@ -25,14 +25,121 @@
         .item_container_main_row {
             align-self: stretch;
             align-items: center;
-            margin: 5px
+            margin: 10px;
+            padding: 10px;
         }
+
+        .container_inside {
+            display: inline-flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        .item_container_inside {
+            align-self: stretch;
+            align-items: center;
+            padding: 5px 5px 5px 5px;
+        }
+
     </style>
     </head>
     <body>
         <div class="container_main_row">
-            <div class="item_container_main_row" style="background-color: #A52A2A; width: 40%; color: white;">Коротко обо мне</div>
-            <div class="item_container_main_row" style="background-color: #FFEBCD; width: 60%">Описание</div>
+            <div class="item_container_main_row" style="width: 20%; background-color: #6B8E23; color: white; font-size: large;" align="center">
+                <img src="/172390075.jpg" style="width: 200px; height: 200 px; float: float; margin: 30px;">
+                <h3>Контакты</h3>
+                    <p>Телефон: 
+                        <a href="tel: 89252181779">+7 (925) 218-1779</a>
+                    </p>
+                    <p>E-mail:
+                        <a href="mailto:idirissova0303@mail.com">idirissova0303@mail.com</a><br />
+                    </p>
+                    <p>Telegram: 
+                        <a href="https://t.me/barbaris626">@barbaris626</a>
+                    </p>
+                    <hr>
+                    <h3>Меню</h3>
+                    <ul align="left">
+                        <li><a href="#Опыт работы">Опыт работы</a></li>
+                        <li><a href="#Портфолио">Портфолио</a></li>
+                        <li><a href="#Образование">Образование</a></li>
+                        <li><a href="#Сертификаты">Сертификаты</a></li>
+                        <li><a href="#Языки">Языки</a></li>
+                    </ul>
+            </div>
+            <div class="item_container_main_row" style="width: 80%;">
+                <h1>Альфия Идирисова</h1>
+                <h3>30 лет, Москва</h3>
+                <p>Умею работать в режиме многозадачности, расставлять приоритеты, внимательная к деталям, хорошо работаю с масштабными многоэтапными задачами.<br />Свободное время уделяю книгам, готовке и плаванию.</p>
+                
+                <div class="container_inside" style="width: 100%;">
+
+                    <div class="item_container_inside;">
+                        <h3>Опыт работы</h3>
+                        <p>март 2023 — по наст.время:<br />
+                        Yandex RideTech, Senior User Acquisition manager</p>
+                        <p>окт 2019 — февр 2023<br />
+                        S7 Airlines, Senior User Acquisition manager</p>
+                    </div>
+
+                    <div class="item_container_inside;">
+                        <h3>Портфолио</h3>
+                        <p>Что-то интересное Раз</p>
+                        <p>Что-то интересное Два</p>
+                        <p>Что-то интересное Три</p>
+
+                    </div>
+
+                    <div class="item_container_inside;">
+                        <h3>Образование</h3>
+                        <p>2017, Магистратура<br />
+                        НИУ "Высшая школа экономики, Москва<br />
+                        Маркетинговые коммуникации</p>
+                        <p>2022, Доп.образование<br />
+                        Институт Конфуция при МГУ, Москва<br />
+                        Китайский язык, базовый курс</p>
+                    </div>
+
+                    <div class="item_container_inside;">
+                        <h3>Навыки</h3>
+                        <table style="padding: 5px;">
+                            <tr>
+                                <td width="150px">HTML, CSS</td>
+                                <td>Начальный</td>
+                            </tr>
+
+
+                        </table>
+                        
+                        
+                    </div>
+
+                    <div class="item_container_inside">
+                        <h3>Языки</h3>
+                        <table style="padding: 5px;">
+                            <tr>
+                                <td width="150px">Русский</td>
+                                <td>C2</td>
+                            </tr>
+                            <tr>
+                                <td>Английский</td>
+                                <td>C1, IELTS 6.0</td>
+                            </tr>
+                            <tr>
+                                <td>Китайский</td>
+                                <td>B2, HSK4+HSKK</td>
+                            </tr>
+                            <tr>
+                                <td>Казахский</td>
+                                <td>B2</td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
 
             
 
