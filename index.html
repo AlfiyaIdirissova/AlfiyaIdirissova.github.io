@@ -1,148 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сайт-визитка Альфии Идирисовой</title>
-    <style>
-
-        head, body {
-            font-family: Courier, monospace;
-            font-size: medium;
-        }
-
-        .container_main_row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: stretch;
-            width: 100%;
-            margin: 10px 10px 10px 10px;
-            gap: 10px;
-        }
-
-        .item_container_main_row {
-            align-self: stretch;
-            align-items: center;
-            margin: 10px;
-            padding: 10px;
-        }
-
-        .container_inside {
-            display: inline-flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: stretch;
-        }
-
-        .item_container_inside {
-            align-self: stretch;
-            align-items: center;
-            padding: 5px 5px 5px 5px;
-        }
-
-    </style>
-    </head>
+        <meta charset="utf-8">
+        <title>Альфия Идирисова</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+        </style>
+        
+    </head> 
     <body>
-        <div class="container_main_row">
-            <div class="item_container_main_row" style="width: 20%; background-color: #6B8E23; color: white; font-size: large;" align="center">
-                <img src="/172390075.jpg" style="width: 200px; height: 200 px; float: float; margin: 30px;">
-                <h3>Контакты</h3>
-                    <p>Телефон: 
-                        <a href="tel: 89252181779">+7 (925) 218-1779</a>
-                    </p>
-                    <p>E-mail:
-                        <a href="mailto:idirissova0303@mail.com">idirissova0303@mail.com</a><br />
-                    </p>
-                    <p>Telegram: 
-                        <a href="https://t.me/barbaris626">@barbaris626</a>
-                    </p>
-                    <hr>
-                    <h3>Меню</h3>
-                    <ul align="left">
-                        <li><a href="#Опыт работы">Опыт работы</a></li>
-                        <li><a href="#Портфолио">Портфолио</a></li>
-                        <li><a href="#Образование">Образование</a></li>
-                        <li><a href="#Сертификаты">Сертификаты</a></li>
-                        <li><a href="#Языки">Языки</a></li>
-                    </ul>
-            </div>
-            <div class="item_container_main_row" style="width: 80%;">
-                <h1>Альфия Идирисова</h1>
-                <h3>30 лет, Москва</h3>
-                <p>Умею работать в режиме многозадачности, расставлять приоритеты, внимательная к деталям, хорошо работаю с масштабными многоэтапными задачами.<br />Свободное время уделяю книгам, готовке и плаванию.</p>
-                
-                <div class="container_inside" style="width: 100%;">
-
-                    <div class="item_container_inside;">
-                        <h3>Опыт работы</h3>
-                        <p>март 2023 — по наст.время:<br />
-                        Yandex RideTech, Senior User Acquisition manager</p>
-                        <p>окт 2019 — февр 2023<br />
-                        S7 Airlines, Senior User Acquisition manager</p>
-                    </div>
-
-                    <div class="item_container_inside;">
-                        <h3>Портфолио</h3>
-                        <p>Что-то интересное Раз</p>
-                        <p>Что-то интересное Два</p>
-                        <p>Что-то интересное Три</p>
-
-                    </div>
-
-                    <div class="item_container_inside;">
-                        <h3>Образование</h3>
-                        <p>2017, Магистратура<br />
-                        НИУ "Высшая школа экономики, Москва<br />
-                        Маркетинговые коммуникации</p>
-                        <p>2022, Доп.образование<br />
-                        Институт Конфуция при МГУ, Москва<br />
-                        Китайский язык, базовый курс</p>
-                    </div>
-
-                    <div class="item_container_inside;">
-                        <h3>Навыки</h3>
-                        <table style="padding: 5px;">
-                            <tr>
-                                <td width="150px">HTML, CSS</td>
-                                <td>Начальный</td>
-                            </tr>
-
-
-                        </table>
-                        
-                        
-                    </div>
-
-                    <div class="item_container_inside">
-                        <h3>Языки</h3>
-                        <table style="padding: 5px;">
-                            <tr>
-                                <td width="150px">Русский</td>
-                                <td>C2</td>
-                            </tr>
-                            <tr>
-                                <td>Английский</td>
-                                <td>C1, IELTS 6.0</td>
-                            </tr>
-                            <tr>
-                                <td>Китайский</td>
-                                <td>B2, HSK4+HSKK</td>
-                            </tr>
-                            <tr>
-                                <td>Казахский</td>
-                                <td>B2</td>
-                            </tr>
-                        </table>
-
-                    </div>
-                </div>
-            </div>
-
-            
-
+      <header>
+        <div class="container-nav">
+          <ul>
+            <li>About me</li>
+            <li><a href="#Work experience">Work experience</a></li>
+            <li><a href="#Project portfolio">Project portfolio</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+          </ul>
         </div>
+      </header>
+
+      <main>
+        <div class="container-intro">
+          <div class="container-intro-photo">
+            <img src="pictures/christina-wocintechchat-com-eAXpbb4vzKU-unsplash.jpg" alt="Intro photo" id="intro-photo">
+          </div>
+          <div class="container-intro-name">
+            <h1>Alfiya Idirissova</h1>
+            <p>Moscow city</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, iusto.</p>
+          </div>
+        </div>
+
+      <section>
+          <p class="head-lines">Work experience</p>
+        <div class="container-job-exp">
+          <div class="container-job-exp-logo">
+            <img src="pictures/ya square.jpg" alt="Yandex Go logo">
+          </div>
+          <div class="container-job-exp-yandex">
+            <h3>Yandex RideTech / since Feb 2023</h3>
+            <p>User acquisition of Yandex Go, Yandex Intercity, Yandex Fuel in CIS countries</p>
+          </div>
+        </div>
+
+        <div class="container-job-exp">
+          <div class="container-job-exp-logo">
+            <img src="pictures/s7.png" alt="S7 logo">
+          </div>
+          <div class="container-job-exp-yandex">
+            <h3>S7 Group / Oct 2019 - Feb 2023</h3>
+            <p>User acquisition of S7 Airlines, S7 Priority, S7 Corporate</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <p class="head-lines">Project portfolio</p>
+      <div class="container-portfolio">
+        <div class="container-portfolio-item">Someting interecting 1</div>
+        <div class="container-portfolio-item">Someting interecting 2</div>
+        <div class="container-portfolio-item">Someting interecting 3</div>
+      </div>
+      </section>
+
+      <section>
+        <p class="head-lines">Education</p>
+        <div>
+          <h3>Higher School of Economics, Moscow</h3>
+          <p>Master degree. Marketing communications</p>
+          <p>2015 - 2017</p>
+        </div>
+        <div>
+          <h3>MSU, Confucius Institute, Moscow</h3>
+          <p>Chinese basic course</p>
+          <p>2020 - 2022</p>
+        </div>
+      </section>
+      </main>
+
+
     </body>
 </html>
